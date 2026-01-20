@@ -122,8 +122,9 @@ const Index = () => {
       </section>
 
       {/* Main Content */}
-      <main className="container px-4 py-12">
-        <div className="grid lg:grid-cols-3 gap-8">
+      <main className="max-w-7xl mx-auto px-4 py-12">
+  <div className="flex flex-col lg:grid lg:grid-cols-3 gap-8">
+
           {/* Sidebar */}
           <aside className="lg:col-span-1 order-2 lg:order-1">
             <div className="sticky top-24 space-y-6">
@@ -180,7 +181,9 @@ const Index = () => {
                 <h3 className="font-heading text-xl font-semibold text-foreground mb-6">
                   Sammenligning af Alle Casinoer
                 </h3>
-                <ComparisonTable />
+                <div className="overflow-x-auto -mx-4 px-4">
+  <ComparisonTable />
+</div>
               </div>
             </section>
 
