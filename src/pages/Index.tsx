@@ -1,5 +1,4 @@
 import { Navigation } from '@/components/Navigation';
-import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { AuthorBox } from '@/components/AuthorBox';
 import { CasinoCard } from '@/components/CasinoCard';
 import { ComparisonTable } from '@/components/ComparisonTable';
@@ -78,7 +77,7 @@ const Index = () => {
         </div>
         
         <div className="container relative z-10 px-4 py-16 md:py-24">
-          <Breadcrumbs />
+          
           
           <div className="max-w-4xl mx-auto text-center mt-8">
             <div className="inline-flex items-center gap-2 bg-secondary/50 backdrop-blur-sm px-4 py-2 rounded-full mb-6">
