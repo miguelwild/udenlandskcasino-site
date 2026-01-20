@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 220 20% 8%;
+    --foreground: 45 20% 95%;
+
+    --card: 220 18% 12%;
+    --card-foreground: 45 20% 95%;
+
+    --popover: 220 18% 10%;
+    --popover-foreground: 45 20% 95%;
+
+    --primary: 45 100% 50%;
+    --primary-foreground: 220 20% 8%;
+
+    --secondary: 220 15% 18%;
+    --secondary-foreground: 45 20% 95%;
+
+    --muted: 220 15% 15%;
+    --muted-foreground: 220 10% 60%;
+
+    --accent: 45 90% 45%;
+    --accent-foreground: 220 20% 8%;
+
+    --destructive: 0 70% 50%;
+    --destructive-foreground: 45 20% 95%;
+
+    --border: 220 15% 20%;
+    --input: 220 15% 20%;
+    --ring: 45 100% 50%;
+
+    --radius: 0.75rem;
+
+    /* Custom casino theme tokens */
+    --gold: 45 100% 50%;
+    --gold-dark: 40 80% 35%;
+    --gold-light: 48 100% 65%;
+    --casino-dark: 220 25% 6%;
+    --casino-card: 220 18% 12%;
+    --casino-border: 45 50% 25%;
+    --trustly-green: 145 60% 45%;
+    
+    --gradient-gold: linear-gradient(135deg, hsl(40 80% 35%), hsl(45 100% 50%), hsl(48 100% 65%));
+    --gradient-dark: linear-gradient(180deg, hsl(220 20% 8%), hsl(220 25% 4%));
+    --gradient-card: linear-gradient(145deg, hsl(220 18% 14%), hsl(220 18% 10%));
+    --gradient-hero: linear-gradient(180deg, hsl(220 25% 6%) 0%, hsl(220 20% 10%) 50%, hsl(220 25% 6%) 100%);
+    
+    --shadow-gold: 0 4px 30px -5px hsl(45 100% 50% / 0.2);
+    --shadow-card: 0 10px 40px -10px hsl(0 0% 0% / 0.5);
+    --shadow-glow: 0 0 60px -10px hsl(45 100% 50% / 0.3);
+
+    --font-heading: 'Playfair Display', serif;
+    --font-body: 'Inter', sans-serif;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: var(--font-body);
+    background: var(--gradient-dark);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+  }
+}
+
+@layer components {
+  .gold-text {
+    @apply bg-clip-text text-transparent;
+    background-image: var(--gradient-gold);
+  }
+
+  .gold-border {
+    border-color: hsl(var(--casino-border));
+  }
+
+  .casino-card {
+    background: var(--gradient-card);
+    @apply border border-border rounded-xl;
+    box-shadow: var(--shadow-card);
+  }
+
+  .casino-card:hover {
+    box-shadow: var(--shadow-gold);
+    border-color: hsl(var(--gold) / 0.3);
+  }
+
+  .glow-effect {
+    box-shadow: var(--shadow-glow);
+  }
+
+  .rating-star {
+    color: hsl(var(--gold));
+  }
+
+  .trustly-badge {
+    background: linear-gradient(135deg, hsl(var(--trustly-green)), hsl(145 60% 35%));
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
