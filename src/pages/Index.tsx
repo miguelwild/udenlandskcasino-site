@@ -87,8 +87,8 @@ const Index = () => {
             </div>
             
             <h1 className="font-heading text-3xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight mb-6">
-              Udenlandske Casinoer med Trustly:{' '}
-              <span className="gold-text">Din Komplette Guide til Sikre Valg i 2026</span>
+              Udenlandske Casinoer :{' '}
+              <span className="gold-text">med Trustly 2026</span>
             </h1>
             
             <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-8 leading-relaxed">
@@ -141,7 +141,7 @@ const Index = () => {
               <p className="text-lg text-muted-foreground leading-relaxed">
                 Hej, jeg hedder Miguel, og jeg har brugt de sidste 7+ år på at teste og anmelde 
                 online casinoer. Hvis du er her, er det sandsynligvis fordi du overvejer at 
-                spille på et udenlandsk casino med Trustly – og det er en beslutning, jeg helt 
+                spille på et udenlandsk casino med Trustly - og det er en beslutning, jeg helt 
                 kan forstå. Trustly har revolutioneret måden, vi overfører penge på, og kombineret 
                 med de rigtige casinoer får du en oplevelse, der overgår de fleste danske alternativer.
               </p>
@@ -205,7 +205,7 @@ const Index = () => {
               </div>
 
               <p className="text-muted-foreground mb-6 leading-relaxed">
-                Jeg har prøvet mange betalingsmetoder gennem årene – fra kreditkort til e-wallets – 
+                Jeg har prøvet mange betalingsmetoder gennem årene - fra kreditkort til e-wallets - 
                 men Trustly er uden tvivl blevet min foretrukne metode. Hvorfor? Fordi det kombinerer 
                 sikkerhed med hastighed på en måde, ingen andre kan matche.
               </p>
@@ -237,7 +237,7 @@ const Index = () => {
                     <h3 className="font-heading text-lg font-semibold text-foreground">Hurtige Udbetalinger</h3>
                   </div>
                   <p className="text-sm text-muted-foreground">
-                    De bedste Trustly-casinoer behandler udbetalinger på 0-2 timer – 
+                    De bedste Trustly-casinoer behandler udbetalinger på 0-2 timer - 
                     nogle gange hurtigere end traditionelle banker!
                   </p>
                 </div>
@@ -371,7 +371,7 @@ const Index = () => {
               <p className="text-muted-foreground mb-6 leading-relaxed">
                 En af de største fordele ved udenlandske casinoer er deres generøse bonusser. 
                 Uden de danske restriktioner kan de tilbyde velkomstpakker, der får danske 
-                casinoers tilbud til at blegne. Men pas på – ikke alle bonusser er lige gode.
+                casinoers tilbud til at blegne. Men pas på - ikke alle bonusser er lige gode.
               </p>
 
               <h3 className="font-heading text-xl font-semibold text-foreground mb-4">
@@ -386,7 +386,7 @@ const Index = () => {
                   <div>
                     <h4 className="font-heading text-lg font-semibold text-foreground mb-1">Velkomstbonus</h4>
                     <p className="text-sm text-muted-foreground">
-                      Den klassiske "match bonus" – casinoet matcher din første indbetaling med 
+                      Den klassiske "match bonus" - casinoet matcher din første indbetaling med 
                       typisk 100-300%. På de bedste Trustly-casinoer kan du få op til 5.000 kr ekstra.
                     </p>
                   </div>
@@ -412,7 +412,7 @@ const Index = () => {
                   <div>
                     <h4 className="font-heading text-lg font-semibold text-foreground mb-1">Cashback</h4>
                     <p className="text-sm text-muted-foreground">
-                      Nogle casinoer tilbyder cashback på dine tab – typisk 5-15% af 
+                      Nogle casinoer tilbyder cashback på dine tab - typisk 5-15% af 
                       ugens nettotab. En god sikkerhedsnet for dem der spiller regelmæssigt.
                     </p>
                   </div>
@@ -462,7 +462,7 @@ const Index = () => {
 
               <p className="text-muted-foreground mb-6 leading-relaxed">
                 Sikkerhed er ikke til forhandling. Når du spiller på et udenlandsk casino, 
-                er det afgørende at forstå, hvad der beskytter dig – og hvad der ikke gør.
+                er det afgørende at forstå, hvad der beskytter dig - og hvad der ikke gør.
               </p>
 
               <h3 className="font-heading text-xl font-semibold text-foreground mb-4">
@@ -553,7 +553,7 @@ const Index = () => {
                   <CheckCircle className="w-5 h-5 text-trustly flex-shrink-0 mt-0.5" />
                   <span className="text-muted-foreground">
                     <strong className="text-foreground">Direkte bankforbindelse:</strong> Penge overføres 
-                    direkte mellem din bank og casinoet – ingen mellemled.
+                    direkte mellem din bank og casinoet - ingen mellemled.
                   </span>
                 </li>
               </ul>
@@ -606,7 +606,7 @@ const Index = () => {
               </p>
               <p className="text-muted-foreground leading-relaxed mb-6">
                 Hvis jeg skulle vælge ét casino at anbefale i 2026, ville det være 
-                <span className="text-gold font-semibold"> Casino Alpha</span> – de kombinerer 
+                <span className="text-gold font-semibold"> Casino Alpha</span> - de kombinerer 
                 alt det bedste: Lynhurtige Trustly-udbetalinger, fantastisk kundeservice, 
                 og en bonus der faktisk kan gennemspilles.
               </p>
