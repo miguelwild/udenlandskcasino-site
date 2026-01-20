@@ -13,4 +13,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://udenlandske-casinoer-med-trustly.dk/sitemap.xml
+Sitemap: https://udenlandskcasinomedtrustly.com/sitemap.xml
