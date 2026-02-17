@@ -39,7 +39,7 @@ export const AuthorBox = () => {
             </div>
             <div className="flex items-center gap-2 text-muted-foreground">
               <Calendar className="w-4 h-4 text-gold" />
-              <span>Opdateret januar 2026</span>
+              <span>Opdateret Februar 2026</span>
             </div>
           </div>
         </div>

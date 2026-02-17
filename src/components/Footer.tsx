@@ -41,7 +41,7 @@ export const Footer = () => {
         {/* Copyright */}
         <div className="text-center text-sm text-muted-foreground">
           <p>© 2026 Udenlandske Casinoer med Trustly. Alle rettigheder forbeholdes.</p>
-          <p className="mt-2">Sidst opdateret: Januar 2026</p>
+          <p className="mt-2">Sidst opdateret: Februar 2026</p>
         </div>
       </div>
     </footer>
