@@ -82,7 +82,7 @@ const Index = () => {
           <div className="max-w-4xl mx-auto text-center mt-8">
             <div className="inline-flex items-center gap-2 bg-secondary/50 backdrop-blur-sm px-4 py-2 rounded-full mb-6">
               <Star className="w-4 h-4 text-gold" />
-              <span className="text-sm text-muted-foreground">Opdateret Februar 2026</span>
+              <span className="text-sm text-muted-foreground">Opdateret Marts 2026</span>
             </div>
             
             <h1 className="font-heading text-3xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight mb-6">
