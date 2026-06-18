@@ -173,7 +173,7 @@ const Index = () => {
                 gennem hurtige udbetalinger, fair spil og pålidelig kundeservice.
               </p>
 
-              <div className="space-y-4">
+              <div className="space-y-5">
                 {casinoData.map((casino) => (
                   <CasinoCard key={casino.rank} {...casino} />
                 ))}
