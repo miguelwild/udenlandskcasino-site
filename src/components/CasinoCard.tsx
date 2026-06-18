@@ -8,6 +8,7 @@ interface CasinoCardProps {
   bonusDetails: string;
   features: string[];
   withdrawalTime: string;
+  url?: string;
   isRecommended?: boolean;
 }
 
@@ -19,6 +20,7 @@ export const CasinoCard = ({
   bonusDetails,
   features,
   withdrawalTime,
+  url,
   isRecommended = false,
 }: CasinoCardProps) => {
   const renderStars = (rating: number) => {
@@ -92,9 +94,20 @@ export const CasinoCard = ({
             <span className="text-sm text-muted-foreground">
               Udbetaling: <span className="text-trustly font-medium">{withdrawalTime}</span>
             </span>
-            <button className="w-full md:w-auto px-6 py-2.5 rounded-lg bg-gradient-to-r from-gold-dark via-gold to-gold-light text-background font-semibold text-sm hover:shadow-lg hover:shadow-gold/30 transition-all duration-300">
-              Besøg Casino
-            </button>
+            {url ? (
+              <a
+                href={url}
+                target="_blank"
+                rel="noopener noreferrer sponsored"
+                className="w-full md:w-auto px-6 py-2.5 rounded-lg bg-gradient-to-r from-gold-dark via-gold to-gold-light text-background font-semibold text-sm hover:shadow-lg hover:shadow-gold/30 transition-all duration-300 text-center"
+              >
+                Besøg Casino
+              </a>
+            ) : (
+              <button className="w-full md:w-auto px-6 py-2.5 rounded-lg bg-gradient-to-r from-gold-dark via-gold to-gold-light text-background font-semibold text-sm hover:shadow-lg hover:shadow-gold/30 transition-all duration-300">
+                Besøg Casino
+              </button>
+            )}
           </div>
         </div>
       </div>

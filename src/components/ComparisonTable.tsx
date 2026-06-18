@@ -2,9 +2,9 @@ import { Check, X, Star } from 'lucide-react';
 
 const casinoData = [
   {
-    name: 'Casino Alpha',
-    bonus: '100% op til 5.000 kr',
-    minDeposit: '100 kr',
+    name: 'Glorion',
+    bonus: '100% up to 750kr + 200 GS',
+    minDeposit: '20 kr',
     withdrawalTime: '0-2 timer',
     trustlyFees: 'Ingen',
     games: '3.500+',
@@ -12,9 +12,9 @@ const casinoData = [
     rating: 5,
   },
   {
-    name: 'NordicBet Plus',
-    bonus: '200% op til 3.000 kr',
-    minDeposit: '50 kr',
+    name: 'Kokobet',
+    bonus: 'OP TIL 2000 KR + 150 GS',
+    minDeposit: '30 kr',
     withdrawalTime: '0-4 timer',
     trustlyFees: 'Ingen',
     games: '2.800+',
@@ -22,9 +22,9 @@ const casinoData = [
     rating: 5,
   },
   {
-    name: 'Viking Spins',
-    bonus: '150% + 100 Free Spins',
-    minDeposit: '100 kr',
+    name: 'FairCrown',
+    bonus: 'Op til 10.000 EUR + 500 gratis spins',
+    minDeposit: '30 kr',
     withdrawalTime: '0-6 timer',
     trustlyFees: 'Ingen',
     games: '4.200+',
