@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Trustly Casino">
+  <defs>
+    <linearGradient id="gold" x1="10" y1="6" x2="54" y2="58" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#8f6808"/>
+      <stop offset="50%" stop-color="#ffd700"/>
+      <stop offset="100%" stop-color="#fff4c2"/>
+    </linearGradient>
+    <radialGradient id="bg" cx="32" cy="28" r="36" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#232a38"/>
+      <stop offset="100%" stop-color="#0e1117"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="64" height="64" rx="15" fill="url(#bg)"/>
+
+  <circle cx="32" cy="32" r="23" fill="none" stroke="url(#gold)" stroke-width="3.5"/>
+  <circle cx="32" cy="32" r="17" fill="none" stroke="url(#gold)" stroke-width="1.25" stroke-dasharray="3.5 3" opacity="0.7"/>
+
+  <path
+    d="M22 18 H42 V24 H36 V46 H28 V24 H22 Z"
+    fill="url(#gold)"
+  />
+</svg>
